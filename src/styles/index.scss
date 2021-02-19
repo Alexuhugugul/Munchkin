@@ -1,0 +1,21 @@
+@import "navBar";
+@import "home";
+
+@font-face{
+  font-family: 'Pangolin';
+  src: local('Pangolin'), url(../fonts/Pangolin-Regular.woff) format("woff");
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pangolin', cursive;
+}
+
+.app{
+  box-sizing: border-box;
+  background: rgb(76, 165, 67);
+  overflow-x: hidden;
+}
